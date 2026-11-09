@@ -1,0 +1,12 @@
+# Copy this file to src/main/resources/db.properties and fill in your values.
+# The real db.properties is git-ignored. Never commit credentials.
+
+db.url=jdbc:oracle:thin:@//localhost:1521/XEPDB1
+db.username=gallery
+db.password=changeit
+db.driver=oracle.jdbc.OracleDriver
+
+# HikariCP pool settings
+db.pool.maximumPoolSize=10
+db.pool.minimumIdle=2
+db.pool.connectionTimeoutMs=10000

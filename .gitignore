@@ -1,0 +1,22 @@
+target/
+db.properties
+*.iml
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+*.log
+
+# Local-only assets and the long internal guide (excluded by request)
+images/
+PROJECT_GUIDE.md
+
+# Installed agent skills and local session metadata
+.agents/
+.claude/
+.commandcode/
+agent/
+skills-lock.json
